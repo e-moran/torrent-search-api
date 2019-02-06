@@ -81,3 +81,6 @@ typings/
 
 #IntelliJ
 .idea/
+
+#Compiled JS Files
+dist/
