@@ -6,7 +6,8 @@
     "pretty": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "lib": ["es2015"]
   },
   "include": [
     "src/**/*.ts"
