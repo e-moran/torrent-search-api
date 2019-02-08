@@ -6,7 +6,7 @@ export class MirrorResultController {
     }
 
     public async getMagnet(): Promise<string> {
-        let magnetUrl: string = "";
+        let magnetUrl = '';
         await torrentSearch.getMagnet({desc: this.url, provider: this.provider}).then(value => {
             magnetUrl = value;
         }).catch(error => {
